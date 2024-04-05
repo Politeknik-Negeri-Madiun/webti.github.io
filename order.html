@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Order Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="navbar ">
+        <h1>Order Form</h1>
+    </div>
+    <div class="container order">
+        <h1>Pesanan</h1>
+        <form id="menuForm">
+            <fieldset class="btn-group">
+                <label>
+                    <input type="checkbox" name="menu" value="35000" onchange="calculateCost()">
+                    <span style="float: left;">Cappucino</span> 
+                    <span style="float: right;">Rp 35,000</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="menu" value="40000" onchange="calculateCost()">
+                    <span style="float: left;">Green Tea Latte</span> 
+                    <span style="float: right;">Rp 40,000</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="menu" value="50000" onchange="calculateCost()">
+                    <span style="float: left;">Fish and Chips</span> 
+                    <span style="float: right;">Rp 50,000</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="menu" value="45000" onchange="calculateCost()">
+                    <span style="float: left;">Tuna Sandwich</span> 
+                    <span style="float: right;">Rp 45,000</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="menu" value="8000" onchange="calculateCost()">
+                    <span style="float: left;">Mineral Water</span> 
+                    <span style="float: right;">Rp 8,000</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="menu" value="18000" onchange="calculateCost()">
+                    <span style="float: left;">French Fries</span> 
+                    <span style="float: right;">Rp 18,000</span>
+                </label>
+            </fieldset>
+        </form>
+        <div class="totalCost">
+            <label>
+                <span style="float: left;">Total</span> 
+                <span id="totalCost" style="float: right;">Rp 0</span>
+            </label>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    text-align: center;
+    border-width: 1px 0 1px 0;
+    border-style: solid;
+    border-color: #E5E9EF;
+    width: 100%;
+}
+
+.container {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login {
+    max-width: 300px;
+}
+
+.order {
+    width: 400px;
+}
+
+.container h1, h2 {
+    text-align: center;
+}
+
+.container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.container input[type="text"],
+.container input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.container input[type="submit"] {
+    background-color: #2196F3;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.container input[type="submit"]:hover {
+    background-color: #0e7fda;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #d32f2f;
+    border-radius: 4px;
+    background-color: #f44336;
+    color: white;
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn-group label {
+    display: block;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-group label:hover {
+    background-color: #ddd;
+}
+
+.btn-group label input[type="checkbox"] {
+    display: none;
+}
+
+.btn-group label input[type="checkbox"]:checked+span {
+    background-color: green;
+    color: white;
+}
+
+.totalCost {
+    display: block;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+fieldset {
+    border: 0;
+}
